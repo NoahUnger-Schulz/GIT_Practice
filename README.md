@@ -153,7 +153,52 @@ It's always good practice to ls and just make sure that the Liscense and README.
 
 If so you have cloned the repository.
 
-
-
 ## General Git
 
+The first thing you should do when working with git is pull work from the remote repository.
+
+        git pull
+
+In other words you want to ensure that the code on your computer (or local repository) 
+is the same as the code on Github (the remote repository).
+As you just used the git clone command this should just say "Already up to date."
+
+Now let's write some "code"!!
+
+First we create a branch.
+
+        git checkout -b Branch1
+
+The idea of git is that it is a tree graph of different people's code 
+when you make a new thing you put it on a branch so that then two people aren't editing the same file.
+
+To see your branches type:
+
+    git branch
+
+
+You should see the main branch and your new branch Branch1
+
+<img width="882" height="151" alt="image" src="https://github.com/user-attachments/assets/ab8c1711-dfd5-4c0e-9742-bfc4ebeb4369" />
+
+
+Then we open a file called code.txt
+
+        vim code.txt
+
+Write something like:
+
+        This is my first git branch
+
+To add this file to the branch we are in we use the git add command
+
+        git add code.txt
+
+If you are lazy you can also do:
+
+    git add .
+To add all files in your current directory(the folder you are in) to the branch at the same time
+
+To make sure you did this right type:
+
+        git status
