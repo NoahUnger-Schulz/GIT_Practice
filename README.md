@@ -112,9 +112,47 @@ Then we had to add this to our GitHub account,
 
 And there you have it SSH keys!!!
 
-## Making A Repository
+### Making A Repository
 
-<img width="1066" height="922" alt="image" src="https://github.com/user-attachments/assets/9bc866d8-09b7-4635-82c0-875b0778e07d" /># 
+Now we are going to actually make a repository: 
+Open a new Github tab or hit the home button.
+Then hit the big green button on the top left that says New:
+
+<img width="403" height="273" alt="image" src="https://github.com/user-attachments/assets/0efa0864-1463-4946-b614-aa2bcc70fbb1" />
+
+
+Next I suggest using a README and a GPL liscense but minimally give your new repository the name 
+
+        GIT_Practice
+
+<img width="1066" height="922" alt="image" src="https://github.com/user-attachments/assets/9bc866d8-09b7-4635-82c0-875b0778e07d" /> 
+
+Now hit the big green button that says Code make sure it is on the SSH tab and click the copy to clipboard button:
+
+<img width="1825" height="1001" alt="image" src="https://github.com/user-attachments/assets/996a0e7c-99e3-4cff-b82f-01f6c4da6823" />
+
+Go back to your terminal type:
+
+        git clone
+
+And then paste with CTRL-SHIFT-V to get something like 
+
+        git clone git@github.com:NoahUnger-Schulz/GIT_Practice.git
+
+it should show you something like this:
+
+<img width="1853" height="385" alt="image" src="https://github.com/user-attachments/assets/cdfadd4b-885c-4f7d-863a-1a408c276c18" />
+
+If you ls you should see the GIT_Practice directory so then type cd and tab or just paste:
+
+        cd GIT_Practice
+
+It's always good practice to ls and just make sure that the Liscense and README.md are there:
+
+<img width="1813" height="152" alt="image" src="https://github.com/user-attachments/assets/28fbe7ee-1b88-4cd6-ab0d-da015fa50021" />
+
+If so you have cloned the repository.
+
 
 
 ## General Git
